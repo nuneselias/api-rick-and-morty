@@ -15,10 +15,10 @@ function showCharacters() {
 
                         container.innerHTML += `<div class="card"> <img class="card-image" src=` + results.image + `>
                     <div class="container-text"><h4> ` + results.name + ` </h4>
-                    <p> Gender : `  + results.gender + `</p>
-                    <p> Status : `  + results.status + `</p>
-                    <p> Origin : `  + results.origin.name + `</p>
-                    <p> Ep: `  + request.name + ` / ` + request.air_date + `</p></div></div>
+                    <p><strong> Gender:</strong> `  + results.gender + `</p>
+                    <p><strong> Status:</strong> `  + results.status + `</p>
+                    <p><strong> Origin:</strong> `  + results.origin.name + `</p>
+                    <p><strong> Ep:</strong> `  + request.name + ` / <strong>` + request.air_date + `</strong></p></div></div>
                     `;
                     })
                     .catch(error => console.error(error));
