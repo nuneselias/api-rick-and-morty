@@ -1,0 +1,1 @@
+export const HTTPS = 'https://rickandmortyapi.com/api/'
