@@ -30,4 +30,5 @@ fácil, seja possível visualizar de uma forma mais simplificada o que está sen
 <p>• Elias Nunes de Oliveira</p>
 
 <h2>Final Work</h2>
+
 ![API Rick and Morty (final template)](/img/final-work.png)
